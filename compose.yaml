@@ -1,0 +1,10 @@
+services:
+  backend:
+    image: kestrel-trace
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - Logging__LogLevel__Microsoft.AspNetCore.Server.Kestrel=Trace
