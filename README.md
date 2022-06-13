@@ -13,3 +13,8 @@ Try it out with:
     docker-compose logs -f &
     curl http://localhost:8080/WeatherForecast
     docker-compose stop
+
+
+![](images/2022-06-13-14-44-03.png)
+
+Cheers
